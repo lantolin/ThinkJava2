@@ -1,3 +1,13 @@
+# ThinkJava2 - Castellano
+
+Intento de proyecto de traducción de este excelente libro al castellano.
+
+Es un proyecto, de momento, puramente personal y al que dedico mucho menos tiempo del que me gustaría, de modo que avanzará muy despacio (o incluso nada). Las contribuciones son más que bienvenidas.
+
+La motivación de este proyecto es hacer este texto accesible a los estudiantes con poco o ningún conocimiento de Inglés. Descubrí el libro mientras buscaba un material adecuado para enseñar programación y Java en la Formación Profesional de Grado Superior. Me encantó la filosofía del libro, sus principios guía y su clara vocación pedagógica.
+
+Mi agradecimiento y mi admiración a los autores por ceder su trabajo bajo una licencia abierta.
+
 # ThinkJava2
 LaTeX source for Think Java, 2nd edition. Copyright (c) 2020 Allen B. Downey and Chris Mayfield. This edition was published in December 2019 by [O'Reilly Media](https://www.oreilly.com/library/view/think-java-2nd/9781492072492/) (ISBN 9781492072508).
 
