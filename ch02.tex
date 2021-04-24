@@ -1,16 +1,20 @@
 \chapter{Variables y Operadores}
 \label{variables}
 
-This chapter describes how to write statements using {\em variables}, which store values like numbers and words, and {\em operators}, which are symbols that perform a computation.
-We also explain three kinds of programming errors and offer additional debugging advice.
+%This chapter describes how to write statements using {\em variables}, which store values like numbers and words, and {\em operators}, which are symbols that perform a computation.
+Este capítulo describe como escribir instrucciones usando {\em variables}, que almacenan valores como números y palabras, y {\em operadores}, que son símbolos que realizan cálculos.
+%We also explain three kinds of programming errors and offer additional debugging advice.
+También explicaremos tres tipos de errores de programación y algunos consejos para depurarlos.
 %Understanding what can go wrong will help you get it right.
 %Finally we discuss the rules of code style, which helps make programs easier to read and debug.
 
-To run the examples in this chapter, you will need to create a new Java class with a \java{main} method (see Section~\ref{hello}).
-Throughout the book, we often omit class and method definitions to keep the examples concise.
+%To run the examples in this chapter, you will need to create a new Java class with a \java{main} method (see Section~\ref{hello}).
+Para ejecutar los ejemplos de este capítulo necesitarás crear una clase Java con un método \java{main} (ver Sección~\ref{hello}).
+%Throughout the book, we often omit class and method definitions to keep the examples concise.
+A lo largo del libro a menudo omitiremos las definiciones de las clases y los métodos, para mantener los ejemplos de código lo más breves posibles.
 
-
-\section{Declaring Variables}
+%\section{Declaring Variables}
+\section{Declarar Variables}
 
 %NOTE: in response to review comments, I am cleaning up the use of
 % ``memory''.  I would like to avoid talking about hardware, or being
@@ -20,29 +24,38 @@ Throughout the book, we often omit class and method definitions to keep the exam
 % that.  I'd rather offer the abstract model that a variable indicates
 % a location that contains a value.
 
+%\index{variable}
+%\index{value}
 \index{variable}
-\index{value}
+\index{valor}
 
-One of the most powerful features of a programming language is the ability to define and manipulate variables.
-A {\bf variable} is a named location in memory that stores a {\bf value}.
-Values may be numbers, text, images, sounds, and other types of data.
+%One of the most powerful features of a programming language is the ability to define and manipulate variables.
+Una de las funcionalidades más potentes de un lenguaje de programación es la habilidad de definir y manipular variables.
+%A {\bf variable} is a named location in memory that stores a {\bf value}.
+Una {\bf variable} es un nombre que se asocia a una zona de la memoria donde se almacena un {\bf valor}
+%Values may be numbers, text, images, sounds, and other types of data.
+Este valor puede ser un número, texto, una imagen, un sonido o cualquier otro tipo de dato.
 %They can be printed, and as we'll see later, operated on.
-To store a value, you first have to declare a variable:
+%To store a value, you first have to declare a variable:
+Para poder almacenar un valor, primero hay que declarar la variable:
 %Since the values we want to store are text, we declare that the new variable is a string:
 
 \begin{code}
 String message;
 \end{code}
 
-\index{declaration}
-\index{statement!declaration}
-\index{type!int}
-\index{type!char}
-\index{type!String}
+\index{declaración}
+\index{instrucción!declaración}
+\index{tipo!int}
+\index{tipo!char}
+\index{tipo!String}
 
-This statement is called a {\bf declaration}, because it declares that the variable \java{message} has the type \java{String}.
-Each variable has a {\bf type} that determines what kind of values it can store.
-For example, the \java{int} type can store integers like \java{1} and \java{-5}, and the \java{char} type can store characters like \java{'A'} and \java{'z'}.
+%This statement is called a {\bf declaration}, because it declares that the variable \java{message} has the type \java{String}.
+Esta instrucción se llama una {\bf declaración} porque declara que la variable \java{message} es de tipo \java{String}.
+%Each variable has a {\bf type} that determines what kind of values it can store.
+Cada variable tiene un {\bf tipo} que determina el tipo de valores que puede almacenar.
+%For example, the \java{int} type can store integers like \java{1} and \java{-5}, and the \java{char} type can store characters like \java{'A'} and \java{'z'}.
+Por ejemplo, el tipo \java{int} puede almacenar enterios como \java{1} y \java{-5}, y el tipo \java{char} puede almacenar caracteres como \java{'A'} y \java{'z'}.
 
 Some types begin with a capital letter and some with lowercase.
 You will learn the significance of this distinction later, but for now you should take care to get it right.
